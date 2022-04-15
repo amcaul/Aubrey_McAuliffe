@@ -1,41 +1,81 @@
-body{margin: 0; background-color: rgb(135, 206, 235);
-  padding: 0;
-font-family: 'Josefin Sans', sans-serif;}
+body {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right:0;
+  background-color: rgb(135, 206, 235);
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-h1{margin-top: 0; margin-bottom:0;   font-family: 'Square Peg', cursive; font-size: 55px;}
-.TopContainer{
+hr {
+  border-style: dotted none none;
+  border-width: 20px;
+  border-color: white;
+  width: 10%;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Square Peg', cursive;
+  font-size: 75px;
+}
+
+.TopContainer {
   text-align: center;
   padding: 20px;
-  margin: 10px;
+  margin: 0;
   border-width: 10px;
   border-color: black;
+  background-color: rgb(135, 206, 235);
 }
 
-.filler{
-  height: 50px;
+.Middlecontainer {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background-image: linear-gradient(rgb(135, 206, 235), rgb(241, 225, 166), rgb(255, 95, 0, 0.6));
 }
 
-.GroundLevel{
-  background-color: #362511
+.GroundLevel {
+  background-color: #362511;
 }
 
-.Transition{
-  background-image: linear-gradient(rgb(135, 206, 235), rgb(241, 225, 166));
-}
-
-.Stratosphere{
-  background-image: linear-gradient(rgb(241, 225, 166), rgb(255, 95, 0, 0.6));
+.profile {
   text-align: center;
   margin: 0;
 }
 
-.Troposphere{
+.skills {
+  text-align: center;
+  margin: 0;
+}
+
+.skill_image{
+  height: 110px;
+  width: 110px;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: white;
+  border-color: white;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Troposphere {
   background-image: linear-gradient(rgb(255, 95, 0, 0.6), rgb(178, 6, 0, 0.5));
   text-align: center;
   margin: 0;
 }
 
-.Final_Transition{
+.Final_Transition {
   background-image: linear-gradient(rgb(178, 6, 0, 0.5), #362511);
   text-align: center;
   margin: 0;
