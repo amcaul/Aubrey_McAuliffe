@@ -1,9 +1,6 @@
 body {
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 0;
-  padding-right:0;
+  padding: 20px 0 20px 0;
   background-color: rgb(135, 206, 235);
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -14,9 +11,7 @@ hr {
   border-color: white;
   width: 10%;
   padding: 30px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 6em auto 6em auto;
 }
 
 h1 {
@@ -24,9 +19,34 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   font-family: 'Square Peg', cursive;
-  font-size: 75px;
+  font-size: 7rem;
+  color: #396A85;
+  line-height: 2;
 }
 
+h2{
+  margin: 10px 0 10px 0;
+  font-size: 2rem;
+  color: #396A85;
+  font-weight: normal;
+}
+
+h3{
+  margin: 0 auto 10px  auto;
+  font-size: 1.5rem;
+  color: #528BA7;
+}
+
+a{
+  color: #528BA7;
+}
+
+.skill-row{
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
 .TopContainer {
   text-align: center;
   padding: 20px;
@@ -57,11 +77,22 @@ h1 {
   margin: 0;
 }
 
+.image-cluster1{
+  float: left;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.image-cluster2{
+  float: right;
+  text-align: center;
+  margin-left: 50px;
+}
 .skill_image{
-  height: 110px;
-  width: 110px;
-  padding: 20px;
-  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  padding: 7px;
+  border-radius: 35px;
   background-color: white;
   border-color: white;
   border-width: 1px;
