@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(rgb(135, 206, 235), rgb(241, 225, 166), rgb(255, 95, 0, 0.6), rgb(178, 6, 0, 0.5), #362511);
 }
 
 hr {
@@ -56,14 +57,12 @@ p{
   margin: 0;
   border-width: 10px;
   border-color: black;
-  background-color: rgb(135, 206, 235);
 }
 
 .Middlecontainer {
   text-align: center;
   padding: 30px 20px 30px 20px;
   margin: 0;
-  background-image: linear-gradient(rgb(135, 206, 235), rgb(241, 225, 166), rgb(255, 95, 0, 0.6));
 }
 
 .bottom-container{
@@ -112,13 +111,11 @@ p{
 }
 
 .Troposphere {
-  background-image: linear-gradient(rgb(255, 95, 0, 0.6), rgb(178, 6, 0, 0.5));
   text-align: center;
   margin: 0;
 }
 
 .Final_Transition {
-  background-image: linear-gradient(rgb(178, 6, 0, 0.5), #362511);
   text-align: center;
   margin: 0;
 }
